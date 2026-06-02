@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Database (auto-created on first run)
+*.db
+
+# Large model weights (auto-downloaded by YOLO on first run)
+assets/models/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output files
+*.avi
+test_output.*

@@ -1,0 +1,64 @@
+{
+    "id": "new_york",
+    "name": "Times Square Intersection",
+    "sources": [
+        "demo_video_1.mp4",
+        "demo_video_2.mp4"
+    ],
+    "intersections": [
+        {
+            "id": "lane_1",
+            "name": "Broadway North",
+            "coords": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    640,
+                    0
+                ],
+                [
+                    640,
+                    720
+                ],
+                [
+                    0,
+                    720
+                ]
+            ],
+            "color": [
+                255,
+                0,
+                255
+            ]
+        },
+        {
+            "id": "lane_2",
+            "name": "7th Avenue South",
+            "coords": [
+                [
+                    640,
+                    0
+                ],
+                [
+                    1280,
+                    0
+                ],
+                [
+                    1280,
+                    720
+                ],
+                [
+                    640,
+                    720
+                ]
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ]
+        }
+    ]
+}
